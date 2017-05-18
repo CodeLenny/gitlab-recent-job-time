@@ -1,6 +1,6 @@
 {
   "name": "gitlab-recent-job-time",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Queries GitLab to determine how long a CI job took the last time it was run.",
   "main": "gitlab-recent-job-time.js",
   "scripts": {
