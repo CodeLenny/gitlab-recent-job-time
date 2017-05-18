@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-recent-job-time",
+  "version": "0.0.0",
+  "description": "Queries GitLab to determine how long a CI job took the last time it was run.",
+  "main": "gitlab-recent-job-time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLenny/gitlab-recent-job-time.git"
+  },
+  "author": "Ryan Leonard (http://ryanleonard.us)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeLenny/gitlab-recent-job-time/issues"
+  },
+  "homepage": "https://github.com/CodeLenny/gitlab-recent-job-time#readme"
+}
