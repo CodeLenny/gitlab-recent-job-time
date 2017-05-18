@@ -14,7 +14,7 @@ function simplifySemVer(v) {
   return `${a}.${b.padStart(4, "0")}${c.padStart(4, "0")}`;
 }
 
-const semver = require("./package.json").version;
+const semver = process.env.VERSION || require("./package.json").version;
 
 const version = simplifySemVer(semver);
 
