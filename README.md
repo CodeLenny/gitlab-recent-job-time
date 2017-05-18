@@ -7,6 +7,17 @@ you click on "Load Last Build Time".
 
 ![Screenshot](screenshot.png)
 
+## Current Status
+
+The job checker should work in many scenarios, but it can be a little naive.
+
+Known limitations:
+
+- Fetching jobs is slow.  Requests should be cached, and possibly bundled if that would improve performance.
+- When presented with multiple "parent commits", only the first one is evaluated.
+- Only the most recent parent commit is queried for job status.  If builds weren't run on the most recent commit, no
+  results will be found.
+
 ## Installation
 
 1. Install [TamperMonkey][]
